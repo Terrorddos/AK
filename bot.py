@@ -89,7 +89,7 @@ def execute_db(query, params=(), fetch=False):
 DEVELOPER_ID = 1760943918
 DEVELOPER_USERNAME = "@ABHISHEEK163"
 MUTE_DURATION_MINUTES = 3
-BOT_USERNAME = "@testing_terror_bot"
+BOT_USERNAME = "@LinkRemoverT_bot"
 
 # Spam protection configuration
 SPAM_PROTECTION = {
@@ -696,7 +696,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
 def main() -> None:
     init_db()
     
-    application = ApplicationBuilder().token("8154431381:AAFlDWDAr_cid2FNAptG_jLAq17WSubOzRw").build()
+    application = ApplicationBuilder().token("7949936346:AAEJ8SA4vPH4Gveq2NBSDXY2vbC1jZ9WFdw").build()
     
     application.bot_data['start_time'] = time.time()
     
